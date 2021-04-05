@@ -2,8 +2,6 @@ tc=int(input())
 for k in range(tc):
     ll=int(input())
     l=[int(x) for x in input().split()]
-    tl=l.copy()
-    tl.sort()
     i=0
     cost=0
     while(i<=len(l)-2):

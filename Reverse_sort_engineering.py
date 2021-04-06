@@ -20,5 +20,7 @@ for k in range(t):
         if cost==sc[1]:
             print('Case '+'#'+str(k+1)+':',*x)
             break
+        else:
+            continue
     else:
         print('Case '+'#'+str(k+1)+':','IMPOSSIBLE')
